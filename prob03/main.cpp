@@ -8,8 +8,8 @@ int main()
   unsigned long int amount_increase; //how much more sales were there this year
   unsigned long int total_prediction; // this year's sales prediction total
 
-  amount_increase = total_sales * percent_increase;
-  total_prediction = amount_increase + total_sales;
+  amount_increase = total_sales * percent_increase; //finding how much sales are there this year
+  total_prediction = amount_increase + total_sales; //finding this year's sales prediction
 
   std::cout << "Last year's sales were $" << total_sales << std::endl;
   std::cout << "This year's sales prediction: $"<< total_prediction;
