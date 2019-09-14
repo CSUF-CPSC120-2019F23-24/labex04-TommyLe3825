@@ -65,11 +65,11 @@ int main()
     << std::dec << my_short3 << std::hex << " (0x" << my_short3 << ')';
   my_short3 = static_cast<unsigned short>(my_short3+1);
   std::cout << ", after adding 1: " << std::dec << my_short3
-    << std::hex << " (0x" << my_short3 << ")\n"; //my_short2 had a overflow
+    << std::hex << " (0x" << my_short3 << ")\n"; //The TODO#5 said my_short2 but this is my_short3
 
   std::cout << "Same value as int (" << sizeof(my_int3) << " bytes): "
     << std::dec << my_int3 << std::hex << " (0x" << my_int3 << ')';
-  my_int3 = static_cast<int>(my_int3);
+  my_int3 = static_cast<int>(my_int3+1);
   std::cout << ", after adding 1: " << std::dec << my_int3
     << std::hex << " (0x" << my_int3 << ")\n";
 
