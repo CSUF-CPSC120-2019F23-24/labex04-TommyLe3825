@@ -65,7 +65,7 @@ int main()
     << std::dec << my_short3 << std::hex << " (0x" << my_short3 << ')';
   my_short3 = static_cast<unsigned short>(my_short3+1);
   std::cout << ", after adding 1: " << std::dec << my_short3
-    << std::hex << " (0x" << my_short3 << ")\n"; //The TODO#5 said my_short2 but this is my_short3
+    << std::hex << " (0x" << my_short3 << ")\n"; //Since it's unsigned, it can't be negative
 
   std::cout << "Same value as int (" << sizeof(my_int3) << " bytes): "
     << std::dec << my_int3 << std::hex << " (0x" << my_int3 << ')';
