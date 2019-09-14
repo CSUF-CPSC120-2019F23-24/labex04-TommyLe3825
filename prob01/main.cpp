@@ -57,6 +57,9 @@ int main()
   // TODO#5: print each number, then add one to each number and print it again
   // also add a comment to explain why my_short2 value became negative after
   // adding one, but my_int2 did not
+  
+  //2^16=65535
+  //2^15=32768
 
   unsigned short my_short3 = 65535; // maximum value for an unsigned short
   int my_int3 = my_short3;
