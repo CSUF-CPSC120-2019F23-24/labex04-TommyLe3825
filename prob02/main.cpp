@@ -10,15 +10,14 @@ int main()
   double average; // average of the numbers
 
     // get the numbers
-    std::cout << "Enter three integers, each separated by one or more spaces: ";
-    std::cin >> num1 >> num2 >> num3;
+  std::cout << "Enter three integers, each separated by one or more spaces: ";
+  std::cin >> num1 >> num2 >> num3;
 
     //calculate the average of the numbers
-       average = (num1 + num2 + num3) / NUM_INTS;
+  average = (num1 + num2 + num3) / NUM_INTS;
 
   // display the average, including the decimal portion
-  std::cout << "The average of " << num1 << ", " << num2 << ", and " << num3
-    << " is: " << average << std::endl;
+  std::cout << "The average of " << num1 << ", " << num2 << ", and " << num3 << " is: " << average << std::endl;
 
   return 0;
 }
